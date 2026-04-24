@@ -3,11 +3,11 @@ console = {}
 
 local isDebug = false
 
-function console.active()
+function console.activate()
     isDebug = true
 end
 
-function console.deactive()
+function console.deactivate()
     isDebug = false
 end
 
