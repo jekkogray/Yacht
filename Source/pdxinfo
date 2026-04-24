@@ -1,5 +1,5 @@
-name=Yacht
-author=hugelton
+name=Yacht-dev
+author=hugelton and Jekko Syquia
 description=Handheld Music Studio
 bundleID=com.hugelton.yacht
 version=1.0.2

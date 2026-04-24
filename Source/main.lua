@@ -41,9 +41,9 @@ import "Visualizer"
 
 
 yachtMeta = {
-    version = "1.0.2",
+    version = "1.0.3",
     name = "Yacht",
-    author = "hugelton",
+    author = "hugelton & Jekko Syquia",
 }
 
 
@@ -140,7 +140,7 @@ function makeMenuImage()
     current_y = current_y + line_height
     gfx.drawText("*made by Leo Kuroshita*", 5, current_y)
     current_y = current_y + line_height
-    gfx.drawText("*for Hugelton inst. kobe,japan.*", 5, current_y)
+    gfx.drawText("*improved by Jekko Syquia*", 5, current_y)
     assets.playdates:drawImage(1, 10, 100)
     playdate.graphics.popContext()
     playdate.setMenuImage(menuImage, 0)
