@@ -57,14 +57,14 @@ assets.mute = {}
 assets.mute = playdate.graphics.imagetable.new("Images/mute")
 
 function assets.init()
-    assets.fonts.nada = gfx.font.new("fonts/nada")
+    assets.fonts.nada = gfx.font.new("Fonts/nada")
     gfx.setFont(assets.fonts.nada, playdate.graphics.font.kVariantNormal)
 
-    assets.fonts.cavs = gfx.font.new("fonts/cavs")
+    assets.fonts.cavs = gfx.font.new("Fonts/cavs")
     gfx.setFont(assets.fonts.cavs, playdate.graphics.font.kVariantBold)
 
 
-    assets.fonts.groria = gfx.font.new("fonts/groria")
+    assets.fonts.groria = gfx.font.new("Fonts/groria")
     gfx.setFont(assets.fonts.groria, playdate.graphics.font.kVariantItalic)
 
 
