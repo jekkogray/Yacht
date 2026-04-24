@@ -1,2 +1,2 @@
-compile: 
-	pdc Source build/Yacht-dev.pdx
+run: 
+	pdc Source build/Output.pdx && PlaydateSimulator build/Output.pdx
