@@ -183,7 +183,9 @@ function playdate.init()
             elseif currentPage == "Preferences" then
                 assets.backgroundImages.pref:draw(0, 0)
             elseif currentPage == "Visualizer" then
-                assets.backgroundImages.visual:draw(0, 0)
+                if assets.backgroundImages.visual then
+                    assets.backgroundImages.visual:draw(0, 0)
+                end
             end
         end
     )

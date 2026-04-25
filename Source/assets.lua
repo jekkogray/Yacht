@@ -57,14 +57,14 @@ assets.mute = {}
 assets.mute = playdate.graphics.imagetable.new("Images/mute")
 
 function assets.init()
-    assets.fonts.nada = gfx.font.new("Fonts/nada")
+    assets.fonts.nada = gfx.font.new("Fonts/Nada")
     gfx.setFont(assets.fonts.nada, playdate.graphics.font.kVariantNormal)
 
-    assets.fonts.cavs = gfx.font.new("Fonts/cavs")
+    assets.fonts.cavs = gfx.font.new("Fonts/Cavs")
     gfx.setFont(assets.fonts.cavs, playdate.graphics.font.kVariantBold)
 
 
-    assets.fonts.groria = gfx.font.new("Fonts/groria")
+    assets.fonts.groria = gfx.font.new("Fonts/Groria")
     gfx.setFont(assets.fonts.groria, playdate.graphics.font.kVariantItalic)
 
 
@@ -79,7 +79,7 @@ function assets.init()
     assets.backgroundImages.drums = playdate.graphics.image.new("Images/drums")
     assets.backgroundImages.mixer = playdate.graphics.image.new("Images/mixer")
     assets.backgroundImages.song = playdate.graphics.image.new("Images/song")
-    assets.backgroundImages.visual = playdate.graphics.image.new("Images/Visualizer")
+    assets.backgroundImages.visual = playdate.graphics.image.new("Images/visualizer")
     assets.backgroundImages.pref = playdate.graphics.image.new("Images/pref")
 
 
